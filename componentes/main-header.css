@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.main-header p{
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    font-family:  "Fira Code", monospace;
+}
+.main-header h2{
+    font-family: "Press Start 2P", system-ui;
+    text-shadow: 3px 3px 0 black;
+    color:  rgba(213, 12, 231, 0.938);
+}

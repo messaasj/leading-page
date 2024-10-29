@@ -1,0 +1,18 @@
+/*parte do resetcs*/
+/*-------------------------*/
+body, h1, h2, h3, h4, p, section{
+ 
+    font-family: "Press Start 2P", system-ui;
+    margin: 0;
+}
+img {
+    width: 130px; /* ajuste o valor conforme necessário */
+    height: auto; /* mantém a proporção da imagem */
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-bottom: 8px;
+ 
+}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');

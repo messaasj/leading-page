@@ -1,0 +1,50 @@
+.contato{
+    font-family: "Press Start 2P", system-ui;
+    text-shadow: 3px 3px 0 black;
+    color:  rgba(213, 12, 231, 0.938);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.indi-form{
+    font-family: "Press Start 2P", system-ui;
+    text-shadow: 2px 2px 0 black;
+    color:  rgba(213, 12, 231, 0.938);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 5px;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #38033f;
+    background-color: transparent;
+    color:  rgba(213, 12, 231, 0.938);
+    outline: none;
+    font-size: 1em;
+    font-family:  "Fira Code", monospace;
+    font-weight: 600;
+}
+
+.botao-enviar{
+    background-color:  rgba(213, 12, 231, 0.938);
+    display: inline-block;
+    box-shadow: 3px 3px 0px black;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-family:  "Fira Code", monospace;
+    text-decoration: none;
+}
+.botao-enviar:hover{
+    padding: 20px 22px;
+    transition-duration: 0.2s;
+
+}

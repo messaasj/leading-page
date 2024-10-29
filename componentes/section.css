@@ -1,0 +1,26 @@
+.botoes-links{
+    font-size: 20px;
+    color: white;
+    font-family:  "Fira Code", monospace;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+   
+    
+}
+.degrade{
+   
+    background: linear-gradient(to right, rgba(213, 12, 231, 0.534) 40%, #38033f);
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    margin-top: 7px;
+}
+.degrade:hover{
+    padding: 10px;
+    transition-duration: 0.5s;
+    background: linear-gradient(to left, #38033f 40%,  rgba(168, 12, 182, 0.534));
+    color: white;
+}
