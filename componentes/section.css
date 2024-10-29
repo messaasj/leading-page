@@ -24,3 +24,6 @@
     background: linear-gradient(to left, #38033f 40%,  rgba(168, 12, 182, 0.534));
     color: white;
 }
+.degrade a:visited{
+    color: white;
+}
