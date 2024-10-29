@@ -4,6 +4,25 @@ body, h1, h2, h3, h4, p, section{
  
     font-family: "Press Start 2P", system-ui;
     margin: 0;
+
+    
+}
+body{
+    background-image: linear-gradient(to bottom right, #aa42b8 ,rgb(58, 5, 63));
+    background-size: 200% 200%;
+    animation: float 6s linear infinite alternate;
+    margin: 0;
+    padding: 0;
+}
+
+/* Keyframes para a animação de fundo */
+@keyframes float {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
 }
 img {
     width: 130px; /* ajuste o valor conforme necessário */
@@ -13,6 +32,6 @@ img {
     padding-bottom: 8px;
  
 }
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
