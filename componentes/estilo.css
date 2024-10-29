@@ -29,7 +29,7 @@ img {
     width: 130px; /* ajuste o valor conforme necessário */
     height: auto; /* mantém a proporção da imagem */
     border-radius: 50%;
-    padding-top: 5px;
+    padding-top: 1px;
     padding-bottom: 8px;
  
 }
