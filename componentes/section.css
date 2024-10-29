@@ -19,7 +19,7 @@
     margin-top: 15px;
 }
 .degrade:hover{
-    padding: 10px;
+    transform: scale(1.06); /* Aumenta o tamanho em 10% */
     transition-duration: 0.5s;
     background: linear-gradient(to left, #38033f 40%,  rgba(168, 12, 182, 0.534));
     color: white;

@@ -3,10 +3,16 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
+    text-align: center; 
     max-width: 470px;
     margin: auto;
     border-radius: 10px;
    height: 790px;
    box-shadow: 0 0 20px #940194, 0 0 40px rgba(221, 87, 233, 0.712), 0 0 60px #940194;
+}
+
+.container:hover{
+    transform: scale(1.01); /* Aumenta o tamanho em 10% */
+    transition-duration: 0.4s;
+    box-shadow: 0 0 20px #660166, 0 0 40px rgba(211, 58, 224, 0.712), 0 0 60px #660166;
 }

@@ -45,7 +45,7 @@
 }
 .botao-enviar:hover{
     background-color:  rgba(213, 12, 231, 0.938);
-    padding: 20px 22px;
+    transform: scale(1.04); /* Aumenta o tamanho em 10% */
     transition-duration: 0.2s;
 
 }
